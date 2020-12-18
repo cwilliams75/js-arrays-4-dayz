@@ -17,7 +17,7 @@ test("getSecondTest", () => {
 
     let basicArrays = new BasicArrays();
     let inputArray = ["The", "quick", "brown"];
-    let expected = "The";
+    let expected = "quick";
 
     let actual = basicArrays.getSecondElement(inputArray);
 
@@ -44,4 +44,5 @@ test("firstLetterTest", () => {
     let actual = basicArrays.getFirstLetterOfEachElement(inputArray);
 
     expect(actual).toEqual(expected);
+
 });
